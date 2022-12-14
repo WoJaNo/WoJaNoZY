@@ -291,7 +291,7 @@ gsap.globalTimeline.timeScale(1.5);    //  圣诞树开始绘画时小光点动�
 
 setTimeout( function(){
 var element = document.getElementById("header");
-element.innerHTML = "圣诞<br />快乐";
+element.innerHTML = "圣<br />诞<br />🎄<br />快<br />乐";
 
 
 }, 7 * 1000 );//延迟5000毫米
@@ -299,7 +299,7 @@ element.innerHTML = "圣诞<br />快乐";
 setTimeout( function(){
 
 var element = document.getElementById("p2");
-element.innerHTML = "窗外可能没有雪花，但圣诞老人仍会如约而至。";
+element.innerHTML = "窗外可能没有雪花，但圣诞老人🎅仍会如约而至。";
 var element = document.getElementById("p1");
 element.innerHTML = " <br />    Yours Woo";
 
