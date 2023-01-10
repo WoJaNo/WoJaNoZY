@@ -1,4 +1,7 @@
 //get请求
+document.addEventListener('pjax:complete', todis);
+document.addEventListener('DOMContentLoaded', todis);
+function todis(){
 $.ajax({
     type: 'get',
     url: 'https://apis.map.qq.com/ws/location/v1/ip',
@@ -224,5 +227,3 @@ function showWelcome() {
     }
 }
 window.onload = showWelcome;
-// 如果使用了pjax在加上下面这行代码
-document.addEventListener('pjax:complete', showWelcome);
