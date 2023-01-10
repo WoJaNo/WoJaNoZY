@@ -1,7 +1,5 @@
 //get请求
-document.addEventListener('pjax:complete', todis);
-document.addEventListener('DOMContentLoaded', todis);
-function todis(){
+document.addEventListener('pjax:complete', showWelcome);
 $.ajax({
     type: 'get',
     url: 'https://apis.map.qq.com/ws/location/v1/ip',
